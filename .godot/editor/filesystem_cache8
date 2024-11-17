@@ -1,0 +1,35 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1731812549
+default_bus_layout.tres::AudioBusLayout::6154612993266235982::1731806477::0::1::::<><>::
+icon.svg::CompressedTexture2D::6469127827471254761::1731806477::1731806567::1::::<><>::
+::res://assets/::1731812239
+::res://assets/bg/::1731812296
+cloud.png::CompressedTexture2D::3545728377329860671::1731810856::1731810856::1::::<><>::
+forest-birds-house-tale-wallpaper-49023d7979ab0e3bec0cef3c0d4c741d.jpg::CompressedTexture2D::439068818719716660::1731811245::1731811254::1::::<><>::
+Health_01.png::CompressedTexture2D::7459994446534422933::1731812233::1731812239::1::::<><>::
+Health_04_Bar01.png::CompressedTexture2D::8866669173909098672::1731812296::1731812296::1::::<><>::
+Heart_Red_1.png::CompressedTexture2D::5602302813763639893::1731812288::1731812288::1::::<><>::
+mountain2.png::CompressedTexture2D::7964109347156341781::1731810856::1731810856::1::::<><>::
+pine1.png::CompressedTexture2D::2107953633652960691::1731810856::1731810856::1::::<><>::
+pine2.png::CompressedTexture2D::2045052063181974863::1731810856::1731810856::1::::<><>::
+sky.png::CompressedTexture2D::53032785557976687::1731810856::1731810856::1::::<><>::
+sky_cloud.png::CompressedTexture2D::1988991481261518499::1731810856::1731810856::1::::<><>::
+TX Tileset Ground.png::CompressedTexture2D::5015850558598546887::1731809036::1731809036::1::::<><>::
+::res://assets/fonts/::1731806566
+PixelOperator8-Bold.ttf::FontFile::6936941770277928638::1731806477::1731806566::1::::<><>::
+PixelOperator8.ttf::FontFile::7248744870507454393::1731806477::1731806566::1::::<><>::
+::res://assets/music/::1731813273
+ROSE & Bruno Mars - APT. (Lyrics).mp3::AudioStreamMP3::1898837957202427035::1731813273::1731813275::1::::<><>::
+time_for_adventure.mp3::AudioStreamMP3::910032320464020072::1731806477::1731806566::1::::<><>::
+::res://assets/sprites/::1731812630
+idle.png::CompressedTexture2D::6618635561024130269::1731806798::1731812630::1::::<><>::
+jump.png::CompressedTexture2D::1388200546088243236::1731806798::1731812630::1::::<><>::
+run.png::CompressedTexture2D::7339103038054140765::1731806798::1731812630::1::::<><>::
+::res://scenes/::1731813149
+game.tscn::PackedScene::6221769105244979977::1731813149::0::1::::<><>::uid://cdpylcygy8mgd::::res://assets/bg/TX Tileset Ground.png<>uid://dqnaqj8yb6hwd::::res://scenes/player.tscn<>uid://3lqntmjfasdf::::res://assets/bg/sky_cloud.png<>uid://dlp4ynj1l1fwv::::res://assets/bg/mountain2.png<>uid://5bdxn0yejfct::::res://assets/bg/pine1.png<>uid://4evydisk78v8::::res://assets/bg/pine2.png
+music.tscn::PackedScene::2056532590634627605::1731806478::0::1::::<><>::uid://m73dm4jhs3eq::::res://assets/music/time_for_adventure.mp3
+player.tscn::PackedScene::8309149557574787539::1731813119::0::1::::<><>::res://scripts/player.gd<>uid://c1kd7wtfy0lw4::::res://assets/sprites/idle.png<>uid://t1ppv70aaujc::::res://assets/sprites/jump.png<>uid://dctd7pyxnlc7n::::res://assets/sprites/run.png<>uid://dejxavrwxmhub::::res://assets/bg/Health_01.png<>uid://dylc0mhgrbc13::::res://assets/bg/Health_04_Bar01.png<>uid://cl22dx2xp6gun::::res://assets/bg/Heart_Red_1.png
+ui.tscn::PackedScene::4465089669443891209::1731813078::0::1::::<><>::uid://gixntt6a572o::::res://assets/bg/forest-birds-house-tale-wallpaper-49023d7979ab0e3bec0cef3c0d4c741d.jpg<>res://scripts/ui.gd
+::res://scripts/::1731813119
+player.gd::GDScript::-1::1731813119::0::1::::<>CharacterBody2D<>::
+ui.gd::GDScript::-1::1731811466::0::1::::<>Control<>::

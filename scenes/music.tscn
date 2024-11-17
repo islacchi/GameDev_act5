@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://4kg150o2entl"]
+
+[ext_resource type="AudioStream" uid="uid://2b2t318k4mnj" path="res://assets/music/ROSE & Bruno Mars - APT. (Lyrics).mp3" id="1_bpxbg"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_bpxbg")
+volume_db = 14.39
+autoplay = true
+bus = &"Music"

@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3 uid="uid://b4u6my6jek8tp"]
+
+[ext_resource type="Texture2D" uid="uid://gixntt6a572o" path="res://assets/bg/forest-birds-house-tale-wallpaper-49023d7979ab0e3bec0cef3c0d4c741d.jpg" id="1_6qib1"]
+[ext_resource type="Script" path="res://scripts/ui.gd" id="1_kawe8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_akdus"]
+bg_color = Color(0.686275, 0, 0, 1)
+
+[node name="Ui" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kawe8")
+
+[node name="Forest-birds-house-tale-wallpaper-49023d7979Ab0e3Bec0Cef3c0d4c741d" type="Sprite2D" parent="."]
+position = Vector2(580, 314)
+scale = Vector2(0.691204, 0.691204)
+texture = ExtResource("1_6qib1")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4.0
+offset_top = -4.0
+offset_right = 4.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/hover = SubResource("StyleBoxFlat_akdus")
+text = "   PLAY   "
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
