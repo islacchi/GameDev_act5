@@ -1,6 +1,3 @@
 res://scenes/game.tscn
-res://scenes/player.tscn
-res://scenes/ui.tscn
-res://scripts/ui.gd
-res://scripts/player.gd
 res://scenes/music.tscn
+res://scenes/player.tscn
